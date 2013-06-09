@@ -1,0 +1,24 @@
+{
+    "name": "spolischook/abstract-fixture-load",
+    "type": "library",
+    "description": "Abstract wrapper for Dctrine Fixture. Load fixtures easier than ever",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Polischook",
+            "email": "spolischook@gmail.com",
+            "homepage": "http://kotoblog.pp.ua"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Spolischook\\AbstractFixtureLoad": "src/"
+        }
+    },
+    "require": {
+        "doctrine/data-fixtures": "1.0.*@dev",
+        "symfony/property-access": ">=2.2,<=2.4",
+        "doctrine/common": ">=2.2,<3.0",
+        "behat/gherkin": "2.*"
+    }
+}
